@@ -314,3 +314,33 @@ transition: ease-in-out;
 .contact-form button:hover {
   background-color: #001496;
 }
+
+/* footer section */
+footer{
+  margin: 20px;
+  padding: 40px;
+  text-align: center;
+  align-items: center;
+
+}
+ul{
+  display: flex;
+  justify-content: center;
+  
+}
+ul li{
+  list-style: none;
+  text-decoration: none;
+  margin-right: 20px;
+  
+}
+ul li a{
+  text-decoration: none;
+}
+
+.footer-p{
+  font-size: 20px;
+  margin: 20px;
+  margin-top: 10px;
+  padding: 20px;
+}
