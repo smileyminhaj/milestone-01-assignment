@@ -1,0 +1,78 @@
+/* Universal Format */
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+.open-sans-font {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+}
+
+/* Header Area Design */
+header {
+  background-image: url("../Images/Hero-bg.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 400px;
+  color: rgb(0, 0, 0);
+  padding: 20px;
+}
+
+/* Nav Bar */
+.nav-logo {
+  width: 100px;
+}
+nav{display: flex;
+  justify-content: space-between; align-items: center;}
+
+/* Default Button Design */
+.default-btn{
+    margin: 30px;
+    padding: 10px 30px;
+    color: white; 
+    background-color: #1230f4;
+    border-radius: 8px;
+    
+}
+.default-btn:hover{
+background-color: #001496;
+transform: scale(.90);
+}
+
+
+/* Hero Section */
+.hero-section{
+    display: flex;
+    flex-direction: column;
+    margin-top: 90px;
+    align-items: center; 
+    text-align: center;
+    justify-content: center;
+}
+
+/* Action Div */
+.action{
+    display: flex;
+    justify-content: center;
+    margin: 0px;
+    padding: 20px;
+    align-items: center;
+    gap: 50px;
+    
+}
+.action-1{
+    align-items: left;
+    text-align: left;
+    justify-content: left;
+}
+.img1{
+    width="400px";
+    border-radius: 20px;
+    box-shadow: 4px 4px 8px 2px rgb(139, 139, 139) ;
+    sha
+}
