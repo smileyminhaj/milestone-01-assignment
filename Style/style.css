@@ -73,8 +73,10 @@ nav {
   text-align: left;
 }
 #nnn {
+  display: block;
   text-align: left;
-  align-items: flex-start;
+  justify-content: left;
+  margin: 0 autopx;
 }
 
 .action-1 {
@@ -86,6 +88,9 @@ nav {
 .action-1 h2,
 .action-1 p {
   text-align: left;
+}
+.ppp {
+  color: #444;
 }
 .img1 {
   width: "400px";
@@ -326,6 +331,6 @@ ul li a {
 .footer-p {
   font-size: 20px;
   margin: 20px;
-
+  color: #333;
   padding: 20px;
 }
