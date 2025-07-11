@@ -14,6 +14,7 @@
 
 /* Header Area Design */
 header {
+  max-width: 1440px;
   background-image: url("../Images/Hero-bg.png");
   background-size: cover;
   background-position: center;
@@ -21,6 +22,7 @@ header {
   height: 400px;
   color: rgb(0, 0, 0);
   padding: 20px;
+  
 }
 
 /* Nav Bar */
@@ -37,12 +39,18 @@ nav{display: flex;
     color: white; 
     background-color: #1230f4;
     border-radius: 8px;
+    display: inline-block;
+  margin-left: 0;
+  text-align: left;
+    
     
 }
 .default-btn:hover{
 background-color: #001496;
 transform: scale(.90);
+transition: ease-in-out;
 }
+
 
 
 /* Hero Section */
@@ -53,26 +61,150 @@ transform: scale(.90);
     align-items: center; 
     text-align: center;
     justify-content: center;
+    max-width: 1140px;
 }
 
 /* Action Div */
 .action{
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     margin: 0px;
     padding: 20px;
     align-items: center;
     gap: 50px;
     
 }
-.action-1{
-    align-items: left;
-    text-align: left;
-    justify-content: left;
+
+.action-1 {
+  max-width: 1140px;
+  padding: 0 20px;
+  margin: 0 auto;
+}
+.action-1 h2,
+.action-1 p {
+  text-align: left;
 }
 .img1{
     width="400px";
     border-radius: 20px;
-    box-shadow: 4px 4px 8px 2px rgb(139, 139, 139) ;
-    sha
+    box-shadow: 2px 2px 15px 1px rgb(40, 40, 40) 
+
+
+
+        background-repeat: no-repeat;
+}
+
+/* Productive Uder Section */
+.productive{
+  background-color: #e5e7ff;
+  max-width: 900px;
+  max-height: 50;
+  padding: 20px;
+
+}
+
+/* Productive Users Section */
+.productive{
+  align-items: center;
+  text-align: center;
+  margin: 0 auto;
+  border-radius: 20px;
+}
+
+.num{
+  font-size: 80px; 
+  color: #1230f4;
+  font-weight: 600;
+}
+.num-dec{
+  font-size: 25px;
+  color: rgb(37, 37, 37);
+}
+.counter-parent{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 20px;
+  margin: 30px;
+  
+}
+/* Review Section */
+.user-reviews {
+  text-align: center;
+  padding: 40px 20px;
+  background-color: #fff;
+  
+}
+
+.user-reviews h2 {
+  font-size: 28px;
+  color: #2e2e2e;
+  margin-bottom: 30px;
+}
+
+.review-box {
+  display: inline-block;
+  width: 280px;
+  margin: 15px;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: #ffffff;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  text-align: left
+  ;
+}
+
+.stars {
+  gap: 4px;
+  margin-bottom: 10px;
+  width: 24px;
+  height: 24px;
+  
+}
+.star-parent{
+  display: flex;
+  
+}
+
+
+.review-box h3 {
+  font-size: 18px;
+  color: #2c3e50;
+  margin: 10px 0;
+}
+
+.review-box p {
+  font-size: 14px;
+  color: #555;
+  line-height: 1.5;
+}
+
+.reviewer-info {
+  display: flex;
+  align-items: left;
+  
+  margin-top: 15px;
+}
+
+.avatar {
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+  margin-right: 12px;
+}
+
+.reviewer-meta {
+  text-align: left;
+}
+
+.reviewer-meta .name {
+  display: block;
+  font-weight: bold;
+  color: #333;
+}
+
+.reviewer-meta .date {
+  display: block;
+  font-size: 12px;
+  color: #888;
 }
