@@ -65,12 +65,13 @@ nav {
 /* Action Div */
 .action {
   display: flex;
-  justify-content: center;
-  margin: 20px;
-  padding: 20px;
+  justify-content: space-around;
   align-items: center;
   gap: 30px;
-  text-align: left;
+  padding: 30px;
+  margin: 20px 30px;
+  text-align: center;
+  max-width: 100%;
 }
 #nnn {
   display: block;
@@ -80,10 +81,7 @@ nav {
 }
 
 .action-1 {
-  /* max-width: 1140px; */
-  padding: 0 20px;
-  margin: 0 auto;
-  text-align: left;
+text-align: left;
 }
 .action-1 h2,
 .action-1 p {
@@ -254,12 +252,12 @@ nav {
 /* Wrapper */
 .form-wrapper {
   background-color: #eeeeee;
-  padding: 40px;
+  padding: 100px;
   border-radius: 10px;
-  margin: 50px;
+  margin: 0px auto;
   box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
   gap: 50px;
-  width: 80%;
+  width: 70%;
   display: flex;
   align-items: center;
   justify-content: space-around;
