@@ -45,7 +45,7 @@ nav{display: flex;
     
     
 }
-.default-btn, .buttonfree:hover{
+.default-btn:hover{
 background-color: #001496;
 transform: scale(.90);
 transition: ease-in-out;
@@ -208,22 +208,44 @@ transition: ease-in-out;
 }
 
 /* Ready For Better Section */
-.ready{
-  display: block;
-  flex-direction: column;
+.free{
   align-items: center;
   text-align: center;
+  background-color: #f2f2f2;
+  margin: 100px;
+  padding: 10px;
+  max-width: 1140px;
+  border-radius: 20px;
 }
-.Ready h3{
-  font-size: 40px;
+
+.free h3,p{
+  text-align: center;
+  
+}
+
+.free h3{
+  font-size: 30px;
+}
+.free p{
+  font-size: 22px;
 }
 .buttonfree{
-margin: 30px;
+    margin: 36px;
     padding: 10px 30px;
     color: white; 
     background-color: #1230f4;
     border-radius: 8px;
-    display: block;
     margin-left: 0;
-  text-align: left;
+    text-align: center;
 }
+.buttonfree:hover{
+background-color: #001496;
+transform: scale(.90);
+transition: ease-in-out;
+}
+
+
+.big{
+  border-radius: 20px;
+}
+
